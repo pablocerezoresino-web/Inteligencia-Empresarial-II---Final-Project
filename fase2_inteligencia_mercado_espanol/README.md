@@ -63,8 +63,8 @@ Cada puntuación A/M/C debe tener **evidencia específica** (dato, noticia, cifr
 - `docs/Final_Project_Brief_v2.pdf`
 
 ## Checklist de entregables
-- [ ] **Tabla con 8+ fuentes reales (tipo, lead time, framework link)** ← en el informe
-- [ ] **Evidencia real recogida de al menos 4 fuentes (screenshots/URLs/tablas)** ← en el informe
-- [ ] **AMC table para Sanitas, Adeslas, Asisa con puntuaciones justificadas** ← en el informe
-- [ ] **P(respuesta) y timeline estimados para cada competidor** ← en el informe
-- [ ] Market Commonality & Resource Similarity matrix (puede ir en apéndice)
+- [x] **Tabla con 8+ fuentes reales (tipo, lead time, framework link)** → 12 fuentes en `RESULTADOS_FASE2.md` seccion 5
+- [x] **Evidencia real recogida de al menos 4 fuentes (screenshots/URLs/tablas)** → 12/12 con URLs en `03_evidencia_competidores.md`
+- [x] **AMC table para Sanitas, Adeslas, Asisa con puntuaciones justificadas** → `RESULTADOS_FASE2.md` seccion 3
+- [x] **P(respuesta) y timeline estimados para cada competidor** → Sanitas 87%/3-6m, Adeslas 60%/6-12m, Asisa 55%/6-9m
+- [x] Market Commonality & Resource Similarity matrix → `RESULTADOS_FASE2.md` seccion 4
