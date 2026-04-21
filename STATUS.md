@@ -7,7 +7,7 @@
 | Fase | Responsable | Estado | Última actualización |
 |------|-------------|--------|----------------------|
 | 1 — Análisis 50 Doctors | Por asignar | 🔴 No iniciado | — |
-| 2 — Inteligencia Mercado Español | Por asignar | 🔴 No iniciado | — |
+| 2 — Inteligencia Mercado Español | Adrian | 🟡 En progreso (75%) | 2026-04-21 |
 | 3 — War Gaming | Por asignar | 🔴 No iniciado | — |
 | 4 — Evaluación Económica | Por asignar | 🔴 No iniciado | — |
 | 5 — Estrategia + Early Warning | Por asignar | 🔴 No iniciado | — |
@@ -24,4 +24,4 @@
 - [ ] Fase 1 comenzar análisis de 50 Doctors
 
 ## Notas del equipo
-<!-- Añadir notas aquí -->
+- **Fase 2 (Adrian, 2026-04-21):** Sistema agentico completado. Análisis AMC para Sanitas (93.3%), Adeslas (86.7%), Asisa (53.3%). Próximo paso: completar Data Collection y refinar evidencia de fuentes secundarias (CNMC, BOE, Registro Mercantil).

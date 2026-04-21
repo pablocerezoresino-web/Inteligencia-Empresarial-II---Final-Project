@@ -1,0 +1,202 @@
+{
+  "fuentes": [
+    {
+      "id": 1,
+      "nombre": "CNMC — Informe Sanitas",
+      "tipo": "Primaria/Pública",
+      "lead_time": "1 mes",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Informe regulatorio CNMC sobre Sanitas",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 1,
+      "nombre": "CNMC — Informe Adeslas",
+      "tipo": "Primaria/Pública",
+      "lead_time": "1 mes",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Informe regulatorio CNMC sobre Adeslas",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 1,
+      "nombre": "CNMC — Informe Asisa",
+      "tipo": "Primaria/Pública",
+      "lead_time": "1 mes",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Informe regulatorio CNMC sobre Asisa",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 4,
+      "nombre": "BOE — Licitaciones sanitarias",
+      "tipo": "Primaria/Pública",
+      "lead_time": "2 semanas",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Licitaciones de servicios sanitarios en últimos 6 meses",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Registro Mercantil — Sanitas",
+      "tipo": "OSINT",
+      "lead_time": "2 semanas",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Estructura accionarial, cambios en junta directiva",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Registro Mercantil — Adeslas",
+      "tipo": "OSINT",
+      "lead_time": "2 semanas",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Estructura accionarial, cambios en junta directiva",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 8,
+      "nombre": "Registro Mercantil — Asisa",
+      "tipo": "OSINT",
+      "lead_time": "2 semanas",
+      "framework_link": "Capability",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Estructura accionarial, cambios en junta directiva",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 2,
+      "nombre": "LinkedIn Job Postings — Sanitas",
+      "tipo": "Alt.Data",
+      "lead_time": "Tiempo real",
+      "framework_link": "Motivation",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Ofertas de empleo: crecimiento de headcount, roles de expansión",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 2,
+      "nombre": "LinkedIn Job Postings — Adeslas",
+      "tipo": "Alt.Data",
+      "lead_time": "Tiempo real",
+      "framework_link": "Motivation",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Ofertas de empleo: crecimiento de headcount, roles de expansión",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 2,
+      "nombre": "LinkedIn Job Postings — Asisa",
+      "tipo": "Alt.Data",
+      "lead_time": "Tiempo real",
+      "framework_link": "Motivation",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Ofertas de empleo: crecimiento de headcount, roles de expansión",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Noticias Prensa — Sanitas",
+      "tipo": "Primaria",
+      "lead_time": "1-2 semanas",
+      "framework_link": "Awareness/Motivation",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Alianzas, expansión, estrategia comunicada públicamente",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Noticias Prensa — Adeslas",
+      "tipo": "Primaria",
+      "lead_time": "1-2 semanas",
+      "framework_link": "Awareness/Motivation",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Alianzas, expansión, estrategia comunicada públicamente",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    },
+    {
+      "id": 7,
+      "nombre": "Noticias Prensa — Asisa",
+      "tipo": "Primaria",
+      "lead_time": "1-2 semanas",
+      "framework_link": "Awareness/Motivation",
+      "estado": "🟡 Pendiente",
+      "evidencia_url": "",
+      "descripcion": "Alianzas, expansión, estrategia comunicada públicamente",
+      "recopilador": "",
+      "fecha_recopilacion": ""
+    }
+  ],
+  "amc_scores": [
+    {
+      "competidor": "Sanitas",
+      "awareness": 4,
+      "awareness_evidencia": "BUPA lidera ELA, probablemente monitorea Latam",
+      "motivation": 5,
+      "motivation_evidencia": "Presión de BUPA por crecimiento, +12% ingresos",
+      "capability": 5,
+      "capability_evidencia": "Financiamiento fuerte de BUPA, estructura BUPA ELA",
+      "p_respuesta": 93.33333333333333,
+      "timeline_meses": 4,
+      "analista": "Agent AMC",
+      "fecha": "2026-04-21T09:10:13.267841"
+    },
+    {
+      "competidor": "Adeslas",
+      "awareness": 4,
+      "awareness_evidencia": "Presencia en Chile 60%, probable monitoreo de expansión",
+      "motivation": 4,
+      "motivation_evidencia": "Plan 2024-2026 de €5.5B, estrategia de diversificación",
+      "capability": 5,
+      "capability_evidencia": "Financiamiento de CaixaBank, experiencia en Chile",
+      "p_respuesta": 86.66666666666667,
+      "timeline_meses": 6,
+      "analista": "Agent AMC",
+      "fecha": "2026-04-21T09:10:13.267850"
+    },
+    {
+      "competidor": "Asisa",
+      "awareness": 2,
+      "awareness_evidencia": "Cobertura internacional limitada, Barcelona solo",
+      "motivation": 2,
+      "motivation_evidencia": "Crecimiento anual 7-10%, presión de competidores",
+      "capability": 4,
+      "capability_evidencia": "Red HLA integrada, presupuesto menor que Sanitas/Adeslas",
+      "p_respuesta": 53.333333333333336,
+      "timeline_meses": 8,
+      "analista": "Agent AMC",
+      "fecha": "2026-04-21T09:10:13.267854"
+    }
+  ],
+  "informe_preview": "# Informe Fase 2 — Inteligencia Competitiva\n\n## Parte A: Data Collection\n\n### Tabla de Fuentes Recopiladas\n\n| # | Fuente | Tipo | Lead Time | Framework | Estado |\n|---|--------|------|-----------|-----------|--------|\n| 1 | CNMC — Informe Sanitas | Primaria/Pública | 1 mes | Capability | 🟡 Pendiente |\n| 1 | CNMC — Informe Adeslas | Primaria/Pública | 1 mes | Capability | 🟡 Pendiente |\n| 1 | CNMC — Informe Asisa | Primaria/Pública | 1 mes | Capability | 🟡 Pendiente |\n| 4 | BOE — Licitaciones sanitarias | Primaria/Pública | 2 semanas | Capability | 🟡 Pendiente |\n| 8 | Registro Mercantil — Sanitas | OSINT | 2 semanas | Capability | 🟡 Pendiente |\n| 8 | Registro Mercantil — Adeslas | OSINT | 2 semanas | Capability | 🟡 Pendiente |\n| 8 | Registro Mercantil — Asisa | OSINT | 2 semanas | Capability | 🟡 Pendiente |\n| 2 | LinkedIn Job Postings — Sanitas | Alt.Data | Tiempo real | Motivation | 🟡 Pendiente |\n| 2 | LinkedIn Job Postings — Adeslas | Alt.Data | Tiempo real | Motivation | 🟡 Pendiente |\n| 2 | LinkedIn Job Postings — Asisa | Alt.Data | Tiempo real | Motivation | 🟡 Pendiente |\n| 7 | Noticias Prensa — Sanitas | Primaria | 1-2 semanas | Awareness/Motivation | 🟡 Pendiente |\n| 7 | Noticias Prensa — Adeslas | Primaria | 1-2 semanas | Awareness/Motivation | 🟡 Pendiente |\n| 7 | Noticias Prensa — Asisa | Primaria | 1-2 semanas | Awareness/Motivation | 🟡 Pendiente |\n\n## Parte B: AMC Analysis\n\n### Puntuaciones Awareness/Motivation/Capability\n\n| Competidor | A | M | C | P(Respuesta) | Timeline |\n|---------|---|---|---|---|---|\n| Sanitas | 4 | 5 | 5 | 93.3% | 4 meses |\n| Adeslas | 4 | 4 | 5 | 86.7% | 6 meses |\n| Asisa | 2 | 2 | 4 | 53.3% | 8 meses |\n"
+}
