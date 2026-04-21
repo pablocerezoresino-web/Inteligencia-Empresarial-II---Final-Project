@@ -7,58 +7,63 @@
 
 ---
 
-## PARTE A: SCENARIO PLANNING (Shell Method) — 1 página
+## PARTE A: SCENARIO PLANNING (Shell Method — 5 Pasos) — 1 página
 
-### Driving Forces — Contexto Macro
+### Paso 1: Driving Forces — Fuerzas que Moldean el Futuro
 
-| Fuerza | Impacto | Timeframe | Influencia |
-|--------|--------|-----------|-----------|
-| **Demografía sanitaria** | Envejecimiento España (48,3 edad media 2025) → crecimiento demanda asistencial | Permanente | Alto |
-| **Regulación DGS** | Directiva Servicios Digitales: restricción a actores extranjeros en sanidad privada en debate | 2-3 años | CRÍTICO |
-| **Competencia asegurador** | Consolidación: Adeslas+CaixaBank, Sanitas+BUPA, Asisa+HLA — menos players, mayor M&A | Permanente | Alto |
-| **Turismo médico** | Crecimiento 28% (2024): oportunidad para hospitales premium sin adherirse a SNS | 18-24 meses | Medio |
-| **Tecnología digital** | Hospital Blua Valdebebas (Sanitas, 2025) establece benchmark digital — presión para diferenciación | Permanente | Medio |
-| **Presión laboral sanitaria** | Médicos españoles atraídos por salarios privados mexicanos (50 Doctors paga 30-40% premium) | 12-18 meses | Medio |
-| **Alianzas multinacionales** | BUPA+Vitamedica, ASISA+HLA, Sanitas+Royal Free Hospital: la sanidad privada es global | Permanente | Alto |
-
----
-
-### Critical Uncertainties — Las 2 Más Impactantes
-
-#### **X-Axis: Receptividad Regulatoria en España**
-- **RESTRICTIVA:** DGS limita inversión extranjera, prohíbe hospitales sin control español, exige copropiedad con operador local
-- **FAVORABLE:** DGS autoriza hospitales privados totalmente extranjeros, fast-track para acreditación, incentivos para turismo médico
-
-**¿Por qué es incierta?** La UE impulsa libre mercado, pero España considera sanidad estratégica. Posición del Ministerio es ambigua post-2024.
+| Fuerza | Categoría STEEP | Impacto | Timeframe | Influencia |
+|--------|----------------|--------|-----------|-----------|
+| **Demografía sanitaria** | Social | Envejecimiento España (48,3 edad media 2025) → crecimiento demanda asistencial | Permanente | Alto |
+| **Regulación hospitalaria** | Político | Ministerio de Sanidad y CCAA: marco de autorización de hospitales privados extranjeros pendiente de definir. Sin precedente de hospital 100% extranjero en España | 2-3 años | CRÍTICO |
+| **Consolidación aseguradora** | Económico | Adeslas+CaixaBank, Sanitas+BUPA, Asisa+HLA — menos players, mayor M&A, barreras de entrada crecientes | Permanente | Alto |
+| **Turismo médico** | Económico | Crecimiento 28% (2024): ~1.000M€/año, ~200.000 turistas salud. Oportunidad para hospitales premium | 18-24 meses | Medio |
+| **Tecnología digital** | Tecnológico | Hospital Blua Valdebebas (Sanitas, 2025): primer hospital nativo digital España. Benchmark de diferenciación | Permanente | Medio |
+| **Presión laboral sanitaria** | Social | Déficit de médicos en SNS (emigración a Alemania/UK) + competencia salarial del sector privado | 12-18 meses | Medio |
+| **Alianzas multinacionales** | Económico | BUPA+Vitamedica (México), ASISA+HLA, Sanitas+Royal Free Hospital (UK): la sanidad privada es global | Permanente | Alto |
 
 ---
 
-#### **Y-Axis: Respuesta de Aseguradoras Españolas (Sanitas, Adeslas, Asisa)**
-- **PASIVA/COOPERATIVA:** Aseguradoras se alinean con 50 Doctors (acuerdos de derivación, red expandida), sin confrontación directa
-- **AGRESIVA:** Aseguradoras compiten frontalmente, abren hospitales rivales en Madrid/Barcelona, presionan regulación contra entrada de 50 Doctors
+### Paso 2: Critical Uncertainties — Las 2 Más Inciertas e Impactantes
 
-**¿Por qué es incierta?** Depende de AMC:
-- Si Sanitas cree que 50 Doctors es AMENAZA → agresiva (posición en Calle Serrano = presencia BUPA)
-- Si Sanitas cree que 50 Doctors es OPORTUNIDAD → cooperativa (alianza para captar turismo médico)
+De las Driving Forces, se seleccionan las 2 que combinan **máxima incertidumbre** (resultado no predecible) y **máximo impacto** (cambiarían radicalmente la estrategia de 50 Doctors):
+
+#### **Eje X: Receptividad Regulatoria en España**
+- **FAVORABLE:** Ministerio de Sanidad autoriza hospitales privados de propiedad 100% extranjera, fast-track para acreditación (<12 meses), incentivos para turismo médico internacional
+- **RESTRICTIVA:** Ministerio de Sanidad exige copropiedad con operador local, acreditación lenta (>24 meses), protección de empleo sanitario español
+
+**¿Por qué es incierta?** La UE impulsa libre mercado de servicios (Directiva de Servicios), pero España trata la sanidad como sector estratégico con reservas nacionales. No existe precedente de hospital de inversión 100% extranjera. La posición del Ministerio depende de la coalición de gobierno y presión sindical.
 
 ---
 
-### Matriz 2×2 — 4 Escenarios
+#### **Eje Y: Respuesta Competitiva de Aseguradoras Españolas (Sanitas, Adeslas, Asisa)**
+- **COOPERATIVA/PASIVA:** Aseguradoras ven a 50 Doctors como activo complementario (turismo médico, diferenciación premium) o no reaccionan. No activan defensas agresivas
+- **AGRESIVA/COMPETITIVA:** Aseguradoras ven a 50 Doctors como amenaza existencial. Contraofensiva: apertura de hospitales propios en mismas ubicaciones, cabildeo contra entrada, guerra de precios, retención agresiva de talento médico
+
+**¿Por qué es incierta?** Depende directamente del AMC (Chen & Miller):
+- Sanitas P(respuesta) = 87%, 3-6 meses → puede ser alianza (si percibe oportunidad) o guerra (si percibe amenaza)
+- Decisión pivot: ¿50 Doctors en Calle Serrano compite con Sanitas o la complementa?
+
+---
+
+### Paso 3: Matriz 2×2 — 4 Escenarios
 
 ```
-               ASEGURADORAS
-               Pasiva/Coop. | Agresiva
-            --|------------|-----------|
-   FAVORABLE |   A         |    B      |
-  REGULACIÓN |------------|-----------|
-  RESTRICTIVA|   C         |    D      |
-            --|------------|-----------|
+                         EJE Y: RESPUESTA ASEGURADORAS
+                    Cooperativa/Pasiva      Agresiva/Competitiva
+                  ┌─────────────────────┬────────────────────────┐
+  EJE X: REGUL.  │                     │                        │
+   FAVORABLE     │  A: ALIANZA RÁPIDA  │  B: CARRERA EN ABIERTO │
+                  ├─────────────────────┼────────────────────────┤
+  RESTRICTIVA    │  C: ENTRADA         │  D: GUERRA + CIERRE    │
+                  │     DEFENSIVA       │                        │
+                  └─────────────────────┴────────────────────────┘
 ```
 
 ---
+
+### Paso 4: Narrativas de Escenario
 
 ### **ESCENARIO A: "ALIANZA RÁPIDA"** (Regulación Favorable + Aseguradoras Cooperativas)
-**Cuadrante:** Alto-Alto (favorable + pasiva)
 
 **Descripción:**  
 DGS autoriza rápidamente la inversión extranjera. Sanitas ve en 50 Doctors una oportunidad de captar turismo médico de alto valor y propone alianza formal: derivación mutua, red de hospitales compartida, posible inversión minoritaria de BUPA en 50 Doctors España. Adeslas y Asisa siguen la onda y ofrecen acuerdos similares.
@@ -83,35 +88,35 @@ DGS autoriza rápidamente la inversión extranjera. Sanitas ve en 50 Doctors una
 
 ---
 
-### **ESCENARIO B: "ENTRADA DIRECTA"** (Regulación Favorable + Aseguradoras Pasivas)
-**Cuadrante:** Alto-Bajo (favorable + agresiva)
+### **ESCENARIO B: "CARRERA EN ABIERTO"** (Regulación Favorable + Aseguradoras Agresivas)
 
 **Descripción:**  
-Regulación DGS da luz verde sin condiciones. Aseguradoras no responden activamente (están "esperando") o consideran a 50 Doctors demasiado pequeño para reaccionar. 50 Doctors construye hospitales sin alianzas formales, vende directamente a pacientes privados y turismo médico. Genera su propia red de afiliados.
+El Ministerio de Sanidad da luz verde y 50 Doctors tiene plena libertad regulatoria para operar. Sin embargo, Sanitas (respaldada por BUPA), Adeslas y Asisa lanzan una contraofensiva competitiva intensa: aceleran la apertura de nuevos hospitales propios en Madrid y Barcelona, inician guerra de precios en sus pólizas premium, contratan agresivamente a especialistas para bloquear el reclutamiento de 50 Doctors, y activan campañas de comunicación apoyándose en su reputación local ("Conoce a tus médicos. Lleva 40 años aquí"). La regulación ya no es la barrera — el mercado sí lo es.
 
 **Implicaciones Estratégicas:**
-- ✅ Máxima libertad operativa, sin compromisos regulatorios
-- ✅ Margen y pricing control total
-- ✅ Crecimiento rápido: 3-4 hospitales en 3 años
-- ⚠️ Inversión de capital muy alta (sin cofinanciación)
-- ⚠️ Volumen de pacientes desde 0: requiere marketing +15-20M€/año
-- ⚠️ Aseguradoras podrían activarse si ven tracción (pivotarían a Escenario D)
+- ✅ Sin fricción regulatoria: apertura rápida (18 meses)
+- ✅ 50 Doctors puede actuar sin restricciones legales ni exigencia de socio local
+- ⚠️ Batalla de mercado intensa: 3 competidores bien financiados contraatacan
+- ⚠️ Guerra de precios: aseguradoras presionan a la baja las tarifas del segmento premium
+- ⚠️ Coste de adquisición de pacientes se dispara (marketing defensivo + competencia)
+- ⚠️ Reclutamiento de médicos bloqueado parcialmente por contraoferta agresiva de incumbentes
+- 🛑 Sin alianzas: volumen de pacientes asegurados depende 100% de captación directa
 
 **Signpost para detectar este escenario:**
-- Ministerio Sanidad publica decreto favoreciendo hospitales extranjeros (en BOE)
-- Sanitas NO solicita reunión con 50 Doctors en 6 meses post-anuncio
-- Adeslas/Asisa mantienen silencio regulatorio (sin presionar CNMC)
-- Bancos españoles ofrecen crédito a 50 Doctors sin aval de asegurador
+- BOE publica decreto favorable a hospitales extranjeros (eje regulatorio resuelto)
+- Sanitas anuncia "Plan Expansión España 2026-2027" con 3 nuevos hospitales al mismo tiempo que 50 Doctors anuncia entrada
+- Adeslas lanza campaña publicitaria masiva "La salud que conoces, el médico que confías"
+- Ofertas de retención salarial de Sanitas/Adeslas a especialistas (+25-30% vs SNS) para bloquear reclutamiento de 50 Doctors
 
 **Acciones recomendadas si entra este escenario:**
-- Levantar capital privado/fondos españoles: 80-120M€ para 4 hospitales + 20M€ marketing
-- Asociarse con operadores turísticos (Meliá, Travel agencies) para volumen
-- Registrar marca "Hospital Premium Mexicano — Calidad + Precio" en EUIPO (diferenciación)
+- Diferenciación radical: posicionarse como "hospital para paciente latinoamericano en Europa" — nicho no disputado por incumbentes españoles
+- Levantar capital propio: 80-120M€ (50M€ construcción + 30M€ batalla marketing año 1-2)
+- Acuerdos con seguros privados de México y Latam (MAPFRE, Seguros Monterrey) que envíen turismo médico garantizado desde día 1
+- Evitar guerra de precios directa: operar en segmento ultra-premium (precio 30% superior a Sanitas), donde incumbentes no compiten
 
 ---
 
 ### **ESCENARIO C: "ENTRADA DEFENSIVA"** (Regulación Restrictiva + Aseguradoras Cooperativas)
-**Cuadrante:** Bajo-Alto (restrictiva + pasiva)
 
 **Descripción:**  
 Regulador DGS limita inversión extranjera (exige copropiedad con operador español, límite de camas, prohibición de hospitales full greenfield). 50 Doctors debe buscar socio local (Sanitas, Adeslas, Asisa). Aseguradoras ven oportunidad de control a través de alianza defensiva: "entramos juntos, 50-50 equity, yo elijo ubicación". Entrada lenta, 1 hospital en 3 años.
@@ -137,7 +142,6 @@ Regulador DGS limita inversión extranjera (exige copropiedad con operador espa�
 ---
 
 ### **ESCENARIO D: "GUERRA + CIERRE"** (Regulación Restrictiva + Aseguradoras Agresivas)
-**Cuadrante:** Bajo-Bajo (restrictiva + agresiva)
 
 **Descripción:**  
 Regulador restringe entrada (DGS retrasa acreditación, exige inspecciones largas). Aseguradoras ven a 50 Doctors como AMENAZA y activan defensas: presionan regulador, abren hospitales rivales en las mismas ubicaciones, reducen tarifas para pacientes, presionan laboralmente a médicos de 50 Doctors.  
@@ -164,6 +168,17 @@ Entrada se bloquea o se retrasa indefinidamente. 50 Doctors no entra, o entra so
 
 ---
 
+### Paso 5: Signposts por Escenario — Tabla Resumen
+
+| Escenario | Indicador Líder | Métrica de Seguimiento | Evento Trigger |
+|-----------|----------------|----------------------|----------------|
+| **A: Alianza Rápida** | Job posting "International Partnerships Director" en web Sanitas | NDA firmado entre partes | Comunicado conjunto 50D + Sanitas |
+| **B: Carrera en Abierto** | BOE publica decreto favorable + Sanitas anuncia nuevos hospitales simultáneamente | Gasto en publicidad Sanitas/Adeslas +30% | Apertura de hospitales Sanitas en mismas ubicaciones de 50D |
+| **C: Entrada Defensiva** | CNMC consulta pública sobre copropiedad obligatoria | Negociaciones >12 meses sin resolución | Ministerio rechaza primera solicitud de 50D |
+| **D: Guerra + Cierre** | Regulador retrasa acreditación >18 meses | Retención médicos especialistas en incumbentes +25% | Sindicatos médicos lanzan campaña pública contra 50D |
+
+---
+
 ---
 
 ## PARTE B: WAR GAME DESIGN — 1 página
@@ -173,10 +188,10 @@ Entrada se bloquea o se retrasa indefinidamente. 50 Doctors no entra, o entra so
 
 **Duración:** 3 rondas x 45 min = 2,5 horas (incluyendo pre-brief 30 min + debrief 30 min)
 
-**Número de jugadores:** 9-12 personas
-- Red Team (50 Doctors): 3 jugadores
-- Blue Team (Sanitas + Adeslas): 4 jugadores (2 por empresa)
-- Green Team (Regulador + Pacientes + Mercado): 2 jugadores
+**Número de jugadores:** 11-13 personas
+- Red Team (50 Doctors — atacante): 3 jugadores
+- Blue Team (Sanitas + Adeslas + Asisa — defensores): 6 jugadores (2 por empresa)
+- Control/Green Team (Regulador + Mercado + Pacientes): 2 jugadores
 - Facilitador + Observador: 2 personas
 
 ---
@@ -197,23 +212,22 @@ Entrada se bloquea o se retrasa indefinidamente. 50 Doctors no entra, o entra so
 
 ---
 
-#### **BLUE TEAM — Sanitas (2 jugadores) + Adeslas (2 jugadores)**
-**Información disponible:**
-- Competitive profile de Sanitas: 2.242M€ revenue, 5 hospitales en España, propietaria BUPA
-- Competitive profile de Adeslas: 1.835M€ revenue, red HLA + centros ambulatorios
-- Inteligencia: 50 Doctors opera en México, planes de entrada Madrid/Barcelona/Málaga/La Coruña
-- Capacidad: acceso a reguladores, presupuesto para contramedidas, abogados especializados
+#### **BLUE TEAM — Sanitas (2 jugadores) + Adeslas (2 jugadores) + Asisa (2 jugadores)**
+**Información disponible (común):**
+- Inteligencia: 50 Doctors opera en México (Puebla, Torreón, La Paz, Cancún), planes de entrada Madrid/Barcelona/Málaga/La Coruña con inversión de 100M€
+- Capacidad compartida: acceso a reguladores (Ministerio de Sanidad, CNMC), presupuesto para contramedidas, abogados especializados
 - Objetivo implícito: "Defender cuota de mercado. ¿Alianza o confrontación?"
 
 **Briefing separado por empresa:**
-- **Sanitas:** "BUPA tiene capacidad global. ¿Opción 1: Alianza estratégica? Opción 2: Contraofensiva competitiva?"
-- **Adeslas:** "Seguidor. Movimiento depende de qué hace Sanitas. ¿Qué haces si Sanitas se alía? ¿Y si Sanitas compite?"
+- **Sanitas (BUPA):** "2.242M€ revenue (2024), 5 hospitales propios + 31 centros España, 3M asegurados. BUPA ya opera en México (Vitamedica + Hospital Bite Medica): conoces a 50 Doctors como actor de tu mercado. ¿Opción 1: Alianza estratégica (derivación, red)? Opción 2: Contraofensiva competitiva (hospital propio en Calle Serrano)?"
+- **Adeslas (SegurCaixa):** "4.127M€ revenue (2024), líder de mercado ~30% cuota, respaldada por CaixaBank + AXA. Sin presencia en México. Tus recursos son mayores que Sanitas. ¿Lideras la respuesta del sector o esperas a Sanitas? ¿Qué haces si Sanitas se alía con 50 Doctors?"
+- **Asisa (HLA):** "1.835M€ revenue (2024), red hospitalaria HLA propia (diferenciador frente a Sanitas/Adeslas). Presencia en México. AMC Motivation 4/5. ¿Ofrecemos a 50 Doctors acceso a red HLA como alianza defensiva? ¿O competimos?"
 
 ---
 
 #### **GREEN TEAM — Regulador + Mercado**
 **Información disponible:**
-- Regulación actual: DGS (Directiva Servicios Digitales), normativa hospitalaria española, barreras de entrada
+- Regulación actual: Ley de Ordenación de las Profesiones Sanitarias, competencias CCAA en autorización hospitalaria, normativa de inversión extranjera, barreras de acreditación
 - Presión política: Ministerio Sanidad vs Comisión Europea (proteccionismo vs libre mercado)
 - Posición Green: "Regulador está NEUTRAL pero receptivo a presiones de stakeholders locales"
 - Escenarios: puede emitir decreto favorable (Escenario A/B) o restrictivo (Escenario C/D)
@@ -261,7 +275,7 @@ Entrada se bloquea o se retrasa indefinidamente. 50 Doctors no entra, o entra so
 *"CNMC anuncia consulta pública sobre 'regulación de hospitales privados extranjeros en territorio UE'. Plazo: 8 semanas. RESULTADO INCIERTO: puede favorecer (libre mercado) o restringir (protección laboral) entrada de 50 Doctors."*
 
 **Acciones que se desencadenan:**
-- **Sanitas/Adeslas/Asisa:** Activan cabildeo en CNMC (presionan hacia regulación favorable o restrictiva)
+- **Sanitas/Adeslas/Asisa (Blue):** Activan cabildeo en CNMC (presionan hacia regulación favorable o restrictiva)
 - **50 Doctors:** Solicita reunión con regulador, ofrece compensaciones laborales/regulatorias
 - **Regulador:** Recibe input de múltiples stakeholders, debe balancear
 
@@ -289,7 +303,7 @@ Entrada se bloquea o se retrasa indefinidamente. 50 Doctors no entra, o entra so
 **Acciones finales (Ronda 3):**
 - 50 Doctors y Sanitas negocian términos de alianza (si es caso) o declaran competencia abierta
 - Adeslas/Asisa toman decisión final: ¿qué hacen?
-- Regulador emite resolución provisional sobre DGS
+- Regulador emite resolución provisional sobre autorización hospitalaria
 - Cada equipo presenta "Plan de acción 12 meses" basado en Ronda 3
 
 ---
@@ -325,24 +339,29 @@ Cada equipo es puntuado al final del juego en base a:
 
 **Pregunta central:** ¿Cuáles son los supuestos que, si fallan, derrumban toda la estrategia de 50 Doctors en España?
 
+**Clasificación Dewar (TN02):**
+- **Load-Bearing:** falla → colapso total del plan
+- **Vulnerable:** falla → adaptación necesaria, plan salvable
+- **Robust:** probablemente se mantiene durante el horizonte de planificación
+
 ---
 
 ### Tabla ABP: 3+ Supuestos Load-Bearing
 
-#### **Supuesto #1: Regulación Española Autoriza Entrada de Hospitales Extranjeros (sin copropiedad obligatoria)**
+#### **Supuesto #1: Regulación Española Autoriza Entrada de Hospitales Extranjeros (sin copropiedad obligatoria)** — *Load-Bearing*
 
 | Aspecto | Contenido |
 |--------|----------|
-| **Supuesto** | Regulador (DGS, CNMC, Ministerio Sanidad) autoriza a 50 Doctors construir/operar hospitales de propiedad 100% extranjera, sin exigencia de socio español. Plazo acreditación < 12 meses. |
+| **Supuesto** | Ministerio de Sanidad (vía CCAA competentes) autoriza a 50 Doctors construir/operar hospitales de propiedad 100% extranjera, sin exigencia de socio local. Plazo acreditación sanitaria < 12 meses. |
 | **¿Por qué es crítico?** | Sin esta autorización, entrada se bloquea (Escenario D) o requiere copropiedad (Escenario C), reduciendo margen a <5% ROIC. Es **load-bearing**: todo el plan pivota en esto. |
-| **Evidencia actual** | ❌ DÉBIL. Regulador español es ambiguo. BUPA opera en México vía subsidiarias locales. No hay precedente de hospital 100% extranjero en España. |
-| **Signpost (cómo sabremos si FALLA)** | 1. CNMC publica resolución exigiendo "copropiedad española obligatoria" en hospitales extranjeros. 2. Ministerio Sanidad emite comunicado "protegiendo empleo sanitario español". 3. Acreditación DGS de 50 Doctors se retrasa > 18 meses sin justificación. |
+| **Evidencia actual** | ❌ DÉBIL. Ministerio de Sanidad es ambiguo. No hay precedente de hospital 100% extranjero operando en España. BUPA opera en México vía subsidiarias locales (no al revés). |
+| **Signpost (cómo sabremos si FALLA)** | 1. CNMC publica resolución exigiendo "copropiedad española obligatoria" en hospitales extranjeros. 2. Ministerio de Sanidad emite comunicado "protegiendo empleo sanitario español". 3. Acreditación sanitaria de 50 Doctors se retrasa > 18 meses sin justificación técnica. |
 | **Shaping Action** | Lobbying proactivo: 50 Doctors contrata firma de asuntos públicos (ej. Llorente & Cuenca, 200-300k€/año) para posicionar mensaje "hospitales 50 Doctors = empleo + innovación, no amenaza". Reuniones con CNMC, Ministerio, Comisión Europea (subsidiaridad, libre mercado). |
 | **Hedging Action** | Plan B: negociar joint venture 50-50 con Sanitas/Adeslas ANTES de que regulador emita resolución restrictiva. Así, si falla supuesto, pivotamos a Escenario C (entrada defensiva) sin perder 12+ meses. |
 
 ---
 
-#### **Supuesto #2: Aseguradoras Españolas (Sanitas, Adeslas) Están Motivadas a Aliarse o Coexistir con 50 Doctors, No a Destruirla**
+#### **Supuesto #2: Aseguradoras Españolas (Sanitas, Adeslas, Asisa) Están Motivadas a Aliarse o Coexistir con 50 Doctors, No a Destruirla** — *Load-Bearing*
 
 | Aspecto | Contenido |
 |--------|----------|
@@ -355,7 +374,7 @@ Cada equipo es puntuado al final del juego en base a:
 
 ---
 
-#### **Supuesto #3: 50 Doctors Puede Captar Volumen de Pacientes Suficiente en Año 1-2 (sin alianza con aseguradora)**
+#### **Supuesto #3: 50 Doctors Puede Captar Volumen de Pacientes Suficiente en Año 1-2 (sin alianza con aseguradora)** — *Load-Bearing*
 
 | Aspecto | Contenido |
 |--------|----------|
@@ -368,7 +387,7 @@ Cada equipo es puntuado al final del juego en base a:
 
 ---
 
-#### **Supuesto #4: Capital y Expertise de BUPA Estará Disponible como Soporte (si entra alianza con Sanitas)**
+#### **Supuesto #4: Capital y Expertise de BUPA Estará Disponible como Soporte (si entra alianza con Sanitas)** — *Vulnerable*
 
 | Aspecto | Contenido |
 |--------|----------|
@@ -381,7 +400,7 @@ Cada equipo es puntuado al final del juego en base a:
 
 ---
 
-#### **Supuesto #5: Médicos Españoles de Calidad Estarán Disponibles sin Fricción Laboral**
+#### **Supuesto #5: Médicos Españoles de Calidad Estarán Disponibles sin Fricción Laboral** — *Vulnerable*
 
 | Aspecto | Contenido |
 |--------|----------|
@@ -401,8 +420,8 @@ Cada equipo es puntuado al final del juego en base a:
 | #1 Regulación autoriza | **CRÍTICO** | 35% | 0-12 meses | **Prioritario:** lobbying immediato |
 | #2 Aseguradoras cooperan | **CRÍTICO** | 40% | 3-6 meses | **Prioritario:** alianza pre-entrada |
 | #3 Volumen de pacientes | **CRÍTICO** | 45% | 12-18 meses | Marketing + alianzas turismo médico |
-| #4 BUPA financia | **CRÍTICO** | 20% | 12-24 meses | Diversificar PE españoles |
-| #5 Médicos disponibles | **MODERADO** | 30% | 6-18 meses | Relocation médicos mexicanos |
+| #4 BUPA financia | **Vulnerable** | 20% | 12-24 meses | Diversificar PE españoles |
+| #5 Médicos disponibles | **Vulnerable** | 30% | 6-18 meses | Relocation médicos mexicanos |
 
 ---
 
@@ -418,7 +437,7 @@ Cada equipo es puntuado al final del juego en base a:
 **Timeline realista:** 24-30 meses (no 18)
 
 **Supuestos de riesgo más alto:**
-1. Regulación restrictiva (cabildeo asegurador presuriza DGS)
+1. Regulación restrictiva (cabildeo asegurador presuriza Ministerio de Sanidad)
 2. Aseguradoras activan defensas (competencia abierta, presión laboral)
 3. Volumen de pacientes (marketing insuficiente año 1)
 
@@ -427,7 +446,7 @@ Cada equipo es puntuado al final del juego en base a:
 - [ ] CEO 50 Doctors reúne con Sanitas/BUPA (discusión alianza)
 - [ ] Presupuestar 20M€ marketing/alianzas turismo médico
 - [ ] Reclutar 30-50 médicos mexicanos para relocation
-- [ ] Diversificar fuentes de financiación (PE, não solo BUPA)
+- [ ] Diversificar fuentes de financiación (PE, no solo BUPA)
 
 ---
 
