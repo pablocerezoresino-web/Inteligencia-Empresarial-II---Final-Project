@@ -1,5 +1,5 @@
 {
-  "fecha": "2026-04-21T14:09:03.841385",
+  "fecha": "2026-04-25T20:34:47.867660",
   "fuentes": [
     {
       "id": 1,
@@ -164,7 +164,7 @@
           "adquisicion_inversion": 0.1
         }
       ],
-      "fecha": "2026-04-21"
+      "fecha": "2026-04-25"
     },
     {
       "competidor": "Adeslas (Mutua/CaixaBank)",
@@ -207,7 +207,7 @@
           "ignorar": 0.1
         }
       ],
-      "fecha": "2026-04-21"
+      "fecha": "2026-04-25"
     },
     {
       "competidor": "Asisa (HLA)",
@@ -252,7 +252,7 @@
           "observar_esperar": 0.1
         }
       ],
-      "fecha": "2026-04-21"
+      "fecha": "2026-04-25"
     }
   ]
 }

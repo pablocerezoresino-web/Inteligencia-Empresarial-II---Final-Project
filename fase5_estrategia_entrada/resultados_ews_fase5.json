@@ -1,0 +1,250 @@
+{
+  "fecha": "2026-04-25T20:35:35.139422",
+  "kits": [
+    {
+      "id": 1,
+      "nombre": "Receptividad de aseguradoras espanolas a alianzas internacionales",
+      "pregunta_central": "Esta Sanitas/BUPA activamente dispuesta a co-invertir en un JV hospitalario con 50 Doctors en los proximos 6-12 meses?",
+      "relevancia": "Supuesto critico ABP #2 (P_fallo=40%): si Sanitas rechaza el JV, E[NPV] cae de +14.2M a -8M EUR. Mayor determinante de la decision final.",
+      "owner": "Persona 2",
+      "fase_origen": "Fases 2 y 3"
+    },
+    {
+      "id": 2,
+      "nombre": "Cambios regulatorios en el sector sanitario privado espanol",
+      "pregunta_central": "Introducira la DGS o el Ministerio de Sanidad restricciones a la inversion extranjera en hospitales privados en 2026-2027?",
+      "relevancia": "Supuesto critico ABP #1 (P_fallo=35%): regulacion adversa activa Escenario C/D (P=50% combinado). En Esc. D la alianza pierde -8M EUR.",
+      "owner": "Persona 5",
+      "fase_origen": "Fases 3 y 4"
+    },
+    {
+      "id": 3,
+      "nombre": "Movimientos competitivos de Sanitas/Adeslas hacia Mexico/LATAM",
+      "pregunta_central": "Esta BUPA acelerando su expansion hospitalaria en Mexico o LATAM de forma que reduzca su interes en 50 Doctors como socio?",
+      "relevancia": "Supuesto critico ABP #4 (P_fallo=25%): si BUPA prefiere expansion propia, 50D pierde 25M EUR de valor diferencial (Exchange Value F4).",
+      "owner": "Persona 2",
+      "fase_origen": "Fases 2 y 4"
+    }
+  ],
+  "kiis": [
+    {
+      "id": 1,
+      "kit_id": 1,
+      "indicador": "Job postings 'international partnerships' o 'hospital expansion LATAM' en LinkedIn Sanitas/BUPA",
+      "fuente": "LinkedIn Jobs + Sales Navigator",
+      "frecuencia": "Mensual",
+      "umbral_alerta": "ROJO: >3 postings/30d | AMARILLO: 1-3 postings",
+      "owner": "Persona 2",
+      "valor_actual": "Sin datos (inicio monitoreo)",
+      "nivel_alerta": "VERDE",
+      "notas": "Senal temprana de intent organizacional antes de anuncio publico"
+    },
+    {
+      "id": 2,
+      "kit_id": 1,
+      "indicador": "Menciones prensa financiera 'alianza hospital mexicano' o '50 Doctors Espana'",
+      "fuente": "Google Alerts + Factiva (El Economista, Expansion)",
+      "frecuencia": "Diaria",
+      "umbral_alerta": "ROJO: >2 menciones/semana | AMARILLO: 1 mencion/semana",
+      "owner": "Persona 5",
+      "valor_actual": "Sin datos (inicio monitoreo)",
+      "nivel_alerta": "VERDE",
+      "notas": "Priorizar fuentes de calidad financiera sobre prensa generalista"
+    },
+    {
+      "id": 3,
+      "kit_id": 1,
+      "indicador": "NPS / satisfaccion clientes Sanitas y Adeslas (Trustpilot, Google Reviews)",
+      "fuente": "Trustpilot / Redaccion Medica encuestas sectoriales",
+      "frecuencia": "Trimestral",
+      "umbral_alerta": "ROJO: Caida >5 puntos NPS | AMARILLO: Caida 2-5 puntos",
+      "owner": "Persona 1",
+      "valor_actual": "Sin datos (inicio monitoreo)",
+      "nivel_alerta": "VERDE",
+      "notas": "Caida de satisfaccion = ventana de oportunidad para modelo 50D premium"
+    },
+    {
+      "id": 4,
+      "kit_id": 2,
+      "indicador": "Nuevas resoluciones DGS sobre inversion extranjera en hospitales privados",
+      "fuente": "BOE (boe.es) + DGSFP (dgsfp.mineco.gob.es)",
+      "frecuencia": "Semanal",
+      "umbral_alerta": "ROJO: Cualquier resolucion restrictiva | AMARILLO: Consulta publica abierta",
+      "owner": "Persona 5",
+      "valor_actual": "Sin restricciones activas (estado 2026-04)",
+      "nivel_alerta": "VERDE",
+      "notas": "BOE keywords: inversion extranjera, hospital privado, autorizacion sanitaria"
+    },
+    {
+      "id": 5,
+      "kit_id": 2,
+      "indicador": "Cambios en cobertura minima seguros salud o tarifas concertadas (UNESPA/CCAA)",
+      "fuente": "BOE / UNESPA / CCAA Madrid-Cataluna-Andalucia",
+      "frecuencia": "Trimestral",
+      "umbral_alerta": "ROJO: Cambio que afecte tarifas JV >10% | AMARILLO: Consulta sobre tarifas",
+      "owner": "Persona 5",
+      "valor_actual": "Legislacion estable (MUFACE renovado 2025-2027)",
+      "nivel_alerta": "VERDE",
+      "notas": "MUFACE renovado elimina riesgo regulatorio a corto plazo (TN04)"
+    },
+    {
+      "id": 6,
+      "kit_id": 2,
+      "indicador": "Declaraciones publicas Ministro Sanidad o Consejeros CCAA sobre hospitales extranjeros",
+      "fuente": "MSCBS ruedas de prensa + Twitter/X oficial",
+      "frecuencia": "Mensual",
+      "umbral_alerta": "ROJO: Declaracion hostil directa | AMARILLO: Mencion negativa en contexto politico",
+      "owner": "Persona 3",
+      "valor_actual": "Sin declaraciones relevantes (2026-04)",
+      "nivel_alerta": "VERDE",
+      "notas": "Anticipa regulacion futura antes de publicacion en BOE"
+    },
+    {
+      "id": 7,
+      "kit_id": 3,
+      "indicador": "Anuncios apertura o adquisicion hospitales por Sanitas/BUPA en Mexico o LATAM",
+      "fuente": "CNMC + Prensa financiera + BUPA Group Press Releases",
+      "frecuencia": "Mensual",
+      "umbral_alerta": "ROJO: Nuevo hospital BUPA en MX (anuncio formal) | AMARILLO: Exploracion publica",
+      "owner": "Persona 2",
+      "valor_actual": "BUPA opera Vitamedica + Hospital Bite Medica CDMX (estables)",
+      "nivel_alerta": "VERDE",
+      "notas": "Si BUPA expande sola en MX puede reducir interes en JV con 50D"
+    },
+    {
+      "id": 8,
+      "kit_id": 3,
+      "indicador": "Movimientos M&A de Adeslas o ASISA en Mexico/LATAM (adquisiciones, JVs)",
+      "fuente": "CNMC + Bloomberg + Latin Lawyer + Tracxn",
+      "frecuencia": "Mensual",
+      "umbral_alerta": "ROJO: JV con rival directo de 50D en MX | AMARILLO: Due diligence rumoreada",
+      "owner": "Persona 2",
+      "valor_actual": "Adeslas: Colombia (Seguros del Estado 100%). Sin movimientos MX.",
+      "nivel_alerta": "VERDE",
+      "notas": "Adeslas sin presencia directa en Mexico -- ventana abierta"
+    },
+    {
+      "id": 9,
+      "kit_id": 3,
+      "indicador": "Resultados financieros BUPA ELA H1 2026 (revenue, guidance expansion)",
+      "fuente": "BUPA Group Half-Year Results (bupa.com/news-and-press)",
+      "frecuencia": "Semestral",
+      "umbral_alerta": "ROJO: Guidance expansion organica Espana >100M EUR sin socio | AMARILLO: Menciones MX",
+      "owner": "Persona 2",
+      "valor_actual": "FY2024: ELA 5.427M GBP (+12%) -- expansion activa",
+      "nivel_alerta": "VERDE",
+      "notas": "H1 2026 publicacion esperada agosto 2026; monitorizar call de resultados"
+    }
+  ],
+  "alertas": {
+    "verde": 9,
+    "amarillo": 0,
+    "rojo": 0
+  },
+  "revision_requerida": false,
+  "recomendacion": {
+    "decision": "CONDITIONAL GO",
+    "confidence_pct": 72.0,
+    "razonamiento": "E[NPV] Alianza Sanitas +14.2M EUR supera con claridad todas las alternativas bajo los 4 escenarios de Fase 3. CONDITIONAL GO (no GO incondicional) porque los supuestos criticos de ocupacion Ano 3 (P_fallo=45%) y riesgo regulatorio (P_fallo=35%) solo son mitigables con clausulas contractuales especificas. Confidence 72%: certeza alta sobre superioridad de la alianza (E[NPV] robusto incluso si P(D) sube al 50%) + incertidumbre moderada sobre materializacion exacta de supuestos operativos (ocupacion, regulacion CCAA, WACC final BUPA).",
+    "evidencias": [
+      {
+        "id": 1,
+        "fase_origen": "Fase 4 -- ECOMO / Decision Tree",
+        "hallazgo": "Alianza Sanitas/BUPA: unica opcion con E[NPV] positivo y robusto: +14.2M EUR (vs. Entrada Directa -3.5M EUR; No Entrada 0 EUR). Mantiene E[NPV] positivo incluso si P(D) sube al 50% (+3.2M EUR).",
+        "implicacion": "Inaccion tiene coste de oportunidad real de 14.2M EUR. El riesgo de accion supera al riesgo de inaccion.",
+        "peso": "ALTO -- metrica de decision central"
+      },
+      {
+        "id": 2,
+        "fase_origen": "Fase 2 -- AMC (Chen & Miller 2012)",
+        "hallazgo": "Sanitas/BUPA: AMC=5/4/5, P(respuesta)=87%, timeline 3-6 meses. BUPA ya opera en Mexico (Vitamedica, Hospital Bite Medica CDMX). Tipo de respuesta mas probable: alianza estrategica (40%).",
+        "implicacion": "Ventana de negociacion estrecha: si 50D no actua en 6 meses, BUPA puede priorizar expansion propia (Hospital Blua Valdebebas, jun 2025).",
+        "peso": "ALTO -- define urgencia de la accion"
+      },
+      {
+        "id": 3,
+        "fase_origen": "Fase 4 -- Exchange Value Framework",
+        "hallazgo": "50D captura 96M EUR del Exchange Value total (160M EUR del JV). Si BUPA financia al WACC 8%, E[NPV] escala de 14.2M a 22.8M EUR (+60%). Modelo medico-socio genera 25M EUR diferencial que Sanitas no puede replicar sola.",
+        "implicacion": "Poder negociador de 50D es real y cuantificable. Equity minimo a negociar: 55%.",
+        "peso": "ALTO -- justifica condiciones contractuales del GO"
+      }
+    ],
+    "condiciones_go": [
+      {
+        "tipo": "CONDICION GO",
+        "accion": "Sanitas compromete contractualmente derivacion minima del 20% de capacidad hospitalaria (garantia 65%+ ocupacion Ano 3 -- supuesto critico ABP #3, P_fallo=45%)",
+        "responsable": "CEO 50D + Equipo Legal",
+        "plazo": "0-3 meses antes de CapEx",
+        "kpi": "Clausula de volumen garantizado en termsheet del JV"
+      },
+      {
+        "tipo": "CONDICION GO",
+        "accion": "BUPA Group financia su 40% como deuda corporativa (rating A), reduciendo WACC efectivo de 50D de 12% a 8-10%",
+        "responsable": "CFO 50D + BUPA Group Treasury",
+        "plazo": "3-6 meses (cierre JV)",
+        "kpi": "Termsheet de financiacion con WACC efectivo <10%"
+      },
+      {
+        "tipo": "CONDICION GO",
+        "accion": "Pre-acuerdo con autoridad sanitaria CCAA Madrid ANTES de iniciar obras, via relaciones institucionales Sanitas con Comunidad de Madrid",
+        "responsable": "Sanitas (Rel. Institucionales)",
+        "plazo": "3-6 meses antes de CapEx",
+        "kpi": "Carta de no-oposicion o pre-autorizacion sanitaria CCAA Madrid"
+      },
+      {
+        "tipo": "CONDICION GO",
+        "accion": "Clausula de exit: si Escenario D se materializa, BUPA compra el 60% de 50D al valor book -- limita perdida maxima 50D a 8M EUR",
+        "responsable": "Legal 50D + M&A Advisor",
+        "plazo": "En JV Agreement (6 meses)",
+        "kpi": "Clausula put firmada en JV Agreement"
+      }
+    ],
+    "hedging_actions": [
+      {
+        "tipo": "HEDGING",
+        "accion": "Iniciar conversaciones paralelas con Adeslas como opcion secundaria (E[NPV]=+4.6M EUR): posicionarse como proveedor de su red sin comprometer equity",
+        "responsable": "CEO 50D",
+        "plazo": "0-6 meses (simultaneo a Sanitas)",
+        "kpi": "Carta de interes Adeslas como red proveedora (no vinculante)"
+      },
+      {
+        "tipo": "HEDGING",
+        "accion": "Presupuestar 2-3M EUR en due diligence regulatoria y legal ANTES de comprometer CapEx: contratar asesor M&A espanol (Rothschild, KPMG Deal Advisory)",
+        "responsable": "CFO 50D",
+        "plazo": "Primeros 3 meses",
+        "kpi": "Informe DD entregado antes del termsheet"
+      },
+      {
+        "tipo": "HEDGING",
+        "accion": "Estructurar JV con piloto de 1 hospital (H1 Madrid) antes de comprometer los 4: limita exposicion maxima a 17M EUR en Ano 0",
+        "responsable": "Board 50D",
+        "plazo": "Decision en JV Agreement (6 meses)",
+        "kpi": "Clausula expansion escalonada: H2 sujeta a 60% ocupacion H1 en Ano 2"
+      }
+    ],
+    "shaping_actions": [
+      {
+        "tipo": "SHAPING",
+        "accion": "CEO 50D propone alianza formal a CEO Sanitas/BUPA ANTES de cualquier anuncio publico en Espana: aprovechar ventana de receptividad AMC (3-6 meses)",
+        "responsable": "CEO 50D",
+        "plazo": "Inmediato (primeros 30 dias)",
+        "kpi": "Reunion C-suite Sanitas/BUPA celebrada y minutes documentados"
+      },
+      {
+        "tipo": "SHAPING",
+        "accion": "Activar red turismo medico Mexico-Espana: publicar casos de exito pacientes BUPA atendidos en 50D MX para demostrar pipeline 12M EUR/ano diferencial",
+        "responsable": "CMO 50D + BUPA International Relations",
+        "plazo": "3-6 meses (previo termsheet)",
+        "kpi": "Informe de flujo de pacientes BUPA-MX a 50D (ultimos 12 meses)"
+      },
+      {
+        "tipo": "SHAPING",
+        "accion": "Participar en Foro Nacional de Sanidad Privada (FNSP) y congreso UNESPA 2026 como ponente: posicionar 50D como referente del modelo medico-socio",
+        "responsable": "CEO 50D + Dir. Relaciones Institucionales",
+        "plazo": "6-12 meses",
+        "kpi": "Invitacion a ponencia aceptada + 3+ reuniones bilaterales post-evento"
+      }
+    ],
+    "fecha": "2026-04-25"
+  }
+}
