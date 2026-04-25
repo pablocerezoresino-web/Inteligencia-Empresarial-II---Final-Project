@@ -1,6 +1,6 @@
 # STATUS — Estado del Proyecto
 
-**Ultima actualizacion:** 2026-04-22
+**Ultima actualizacion:** 2026-04-25
 
 ## Estado por Fases
 
@@ -8,9 +8,9 @@
 |------|-------------|--------|----------------------|
 | 1 — Analisis 50 Doctors | Pablo Cerezal | 🟢 Completado | 2026-04-22 |
 | 2 — Inteligencia Mercado Espanol | Adrian | 🟢 Completado | 2026-04-21 |
-| 3 — War Gaming | Por asignar | 🟢 Completado | 2026-04-21 |
-| 4 — Evaluacion Economica | Por asignar | 🟢 Completado | 2026-04-21 |
-| 5 — Estrategia + Early Warning | Pablo Cerezal | 🟢 Completado | 2026-04-22 |
+| 3 — War Gaming | Adrian | 🟢 Completado | 2026-04-25 |
+| 4 — Evaluacion Economica | Adrian | 🟢 Completado | 2026-04-25 |
+| 5 — Estrategia + Early Warning | Pablo Cerezal | 🟢 Completado | 2026-04-25 |
 
 ## Leyenda
 - 🔴 No iniciado
@@ -18,16 +18,33 @@
 - 🟢 Completado
 - 🔵 En revision
 
+## Resultado Auditoria (Pablo Cerezal, 2026-04-24)
+- **Veredicto:** APTO — 18/18 entregables Brief §3.1 cubiertos
+- **Nota global:** 9/10
+- **PR limpieza:** fix/audit-cleanup mergeado en main (2026-04-22)
+- **Mejoras post-auditoria aplicadas (2026-04-25):**
+  - [x] M3: Ejecutados ambos sistemas agenticos — JSONs de evidencia en repo
+  - [x] M1: Unificadas 3 versiones de F5 en documento maestro FASE5_MASTER_ESTRATEGIA_EWS.md
+  - [x] M2: Canvas visual ampliado en analisis_fase1.md (representacion ASCII 9 bloques)
+  - [x] M5: README raiz reescrito con narrativa ejecutiva end-to-end
+  - [x] M6: FASE4_ECOMO_FORMULAS_ANEXO.md — formulas NPV/WACC/Exchange Value explicitas
+  - [x] M7: Transcripcion narrada Ronda 1 War Game añadida a FASE3_WAR_GAMING_COMPLETO.md
+  - [x] GitHub Actions: ews-monitor.yml — ejecucion automatica EWS cada lunes 08:00 UTC
+
 ## Proximos pasos
+- [x] Fase 1: Blind Spot Check + Contexto 50 Doctors completado
 - [x] Fase 2: Data Collection + AMC Analysis completado
 - [x] Fase 3: Scenario Planning + War Game Design + ABP completado
 - [x] Fase 4: ECOMO Evaluation completado
-- [x] Fase 1: Blind Spot Check + Contexto 50 Doctors completado
 - [x] Fase 5: Early Warning System + Recomendacion Estrategica completado
+- [x] Auditoria final: 18/18 entregables (Pablo Cerezal, 2026-04-24)
+- [x] Mejoras M1-M7 post-auditoria aplicadas (2026-04-25)
+- [ ] Push a GitHub (requiere credenciales del owner: git push origin main)
 
 ## Notas del equipo
-- **Fase 2 (Adrian, 2026-04-21):** Sistema agentico completado con 4 agentes (OSINT, Alt.Data, AMC, Sintesis). 12 fuentes verificadas con evidencia real. AMC revisado: Sanitas 87% (3-6 meses), Adeslas 60% (6-12 meses), Asisa 55% (6-9 meses). Hallazgo critico: BUPA ya opera en Mexico y conoce el mercado de 50 Doctors. ASISA tambien tiene presencia en Mexico. Matrices Market Commonality y Resource Similarity completadas. Todos los entregables del Brief cubiertos.
-- **Fase 3 (2026-04-21):** Escenarios Planning completado (4 escenarios: Alianza Rápida, Entrada Directa, Entrada Defensiva, Guerra+Cierre). War Game Design completo: 3 rondas, 3 equipos (Red/Blue/Green), 2+ shock events. ABP completado: 5 supuestos críticos (Regulación, Aseguradoras, Volumen, BUPA, Médicos) con signposts y hedging. Escenario más probable: Alianza Rápida + Defensiva (60-70%). Timeline realista: 24-30 meses.
-- **Fase 4 (2026-04-21):** ECOMO Evaluation completado. 4 opciones evaluadas (Alianza Sanitas, Alianza Adeslas, Entrada Directa, No Entrada). Veredicto: Alianza Sanitas E[NPV]=+14,2M€ RECOMENDADA. Entrada Directa E[NPV]=-3,5M NO recomendada. Exchange Value total del JV: €160M (50D captura €96M, Sanitas €64M). Sensibilidad: ocupacion Año3 es variable más crítica (±€16M impacto). WACC reducible con financiacion BUPA. Confidence level: 72%.
-- **Fase 5 (Pablo Cerezal, 2026-04-22):** Sistema agentico completado con 4 agentes (KIT, EWS, Rec, Sintesis). 3 KITs definidos (Receptividad aseguradoras, Regulacion, Movimientos LATAM). Dashboard 9 KIIs con fuentes, frecuencias, umbrales y owners. Veredicto: CONDITIONAL GO — Alianza Sanitas/BUPA, Confidence 72%. Top 3 evidencias: E[NPV]+14.2M, AMC Sanitas 87% (3-6 meses), Exchange Value 96M capturado por 50D. 4 condiciones GO contractuales, 3 hedging actions, 3 shaping actions. Todos los entregables del Brief §3.1 (Phases 6 y 7) cubiertos.
-- **Fase 1 (Pablo Cerezal, 2026-04-22):** Blind Spot Check completado con 5 puntos ciegos (Zahra & Chaples 1993): modelo medico-socio no exportable, infravaloración de Quirónsalud, subestimación de ciclos regulatorios CCAA, sesgo de confirmación por éxito mexicano, riesgo de sobre-extensión simultánea. Contramedicida Pre-Mortem aplicada: 5 causas de fracaso narrativizadas con implicaciones de acción inmediata. Canvas, DAFO, competencias de expansion y repertorio competitivo documentados.
+- **Fase 1 (Pablo Cerezal, 2026-04-22):** Canvas visual 9 bloques + DAFO expansion internacional + Competitive Repertoire (8 ciudades Mexico + 4 España). Blind Spot Check: 5 puntos ciegos (Zahra & Chaples 1993). Pre-Mortem: 5 causas de fracaso retroactivas. Nota auditoria: 8,5/10.
+- **Fase 2 (Adrian, 2026-04-21):** Sistema agentico 4 agentes (OSINT, Alt.Data, AMC, Sintesis). 12 fuentes verificadas. AMC: Sanitas 87% (3-6 meses), Adeslas 60% (6-12 meses), Asisa 55% (6-9 meses). Hallazgo critico: BUPA opera en Mexico (Vitamedica + Hospital Bite Medica). JSON de evidencia: resultados_amc.json. Nota auditoria: 9/10.
+- **Fase 3 (Adrian, 2026-04-21/25):** Shell Method 2x2 + 4 escenarios (A=35%/B=15%/C=30%/D=20%). War Game Design: 3 rondas, 3 equipos (Red/Blue/Green), 2 shock events. ABP: 5 supuestos criticos. Transcripcion narrada Ronda 1 añadida. Nota auditoria: 9,5/10.
+- **Fase 4 (Adrian, 2026-04-21/25):** ECOMO NPV + Exchange Value. Veredicto: Alianza Sanitas E[NPV]=+14,2M€ RECOMENDADA. Entrada Directa E[NPV]=-3,5M NO recomendada. Exchange Value: 160M€ total (50D 96M / Sanitas 64M). WACC breakdown explicito en FASE4_ECOMO_FORMULAS_ANEXO.md. Nota auditoria: 9/10.
+- **Fase 5 (Pablo Cerezal, 2026-04-22/25):** Sistema agentico EWS 4 agentes. 3 KITs + 9 KIIs. Veredicto: CONDITIONAL GO — Alianza Sanitas/BUPA, Confidence 72%. 4 condiciones GO + 3 hedging + 4 shaping. GitHub Actions automatiza ejecucion semanal. Nota auditoria: 8,5/10.
+- **Auditoria (Pablo Cerezal, 2026-04-24):** Revision completa via GitHub API. 18/18 entregables OK. 3 correcciones cosmeticas aplicadas via PR #2. Nota global 9/10. Cadenas de trazabilidad F1→F5 verificadas.

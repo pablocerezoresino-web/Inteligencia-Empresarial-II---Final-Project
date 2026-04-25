@@ -1,0 +1,169 @@
+# ============================================================
+# Early Warning System — Ejecución Automática Semanal
+# 50 Doctors México | Expansión España | Fase 5
+# ============================================================
+#
+# Este workflow ejecuta el sistema agéntico EWS (agentic_ews_system.py)
+# automáticamente cada lunes a las 08:00 UTC y guarda los resultados
+# en el repositorio como evidencia de monitoreo continuo.
+#
+# Comandos disponibles manualmente (Actions → Run workflow):
+#   - Ejecución completa con JSON export (por defecto)
+#   - Solo check de alertas (--check-alerts)
+#   - Solo recomendación estratégica (--recommendation-only)
+# ============================================================
+
+name: EWS Monitor — Early Warning System
+
+on:
+  # Ejecución automática: cada lunes a las 08:00 UTC
+  schedule:
+    - cron: '0 8 * * MON'
+
+  # Ejecución manual desde la interfaz de GitHub Actions
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Modo de ejecución'
+        required: true
+        default: 'full'
+        type: choice
+        options:
+          - full              # Informe completo + JSON export
+          - check-alerts      # Solo estado de KIIs (rápido)
+          - recommendation    # Solo veredicto estratégico
+
+  # También se puede disparar con push a main (para verificar que el sistema funciona)
+  push:
+    branches: [main]
+    paths:
+      - 'fase5_estrategia_entrada/agentic_ews_system.py'
+
+jobs:
+  # ============================================================
+  # JOB 1: Ejecutar el EWS y guardar resultados
+  # ============================================================
+  run-ews:
+    name: Ejecutar Early Warning System
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Clonar el repositorio
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # 2. Configurar Python 3.11
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # 3. Ejecutar EWS en modo completo (por defecto) o según input manual
+      - name: Ejecutar EWS — modo full (export JSON)
+        if: ${{ github.event.inputs.mode == 'full' || github.event.inputs.mode == '' || github.event_name == 'schedule' || github.event_name == 'push' }}
+        working-directory: fase5_estrategia_entrada
+        run: |
+          echo "=================================================="
+          echo "  50 Doctors EWS — $(date '+%Y-%m-%d %H:%M UTC')"
+          echo "=================================================="
+          python agentic_ews_system.py --export json
+          echo "✅ JSON exportado: resultados_ews_fase5.json"
+
+      - name: Ejecutar EWS — modo check-alerts
+        if: ${{ github.event.inputs.mode == 'check-alerts' }}
+        working-directory: fase5_estrategia_entrada
+        run: |
+          echo "=== CHECK ALERTS ==="
+          python agentic_ews_system.py --check-alerts
+
+      - name: Ejecutar EWS — modo recommendation-only
+        if: ${{ github.event.inputs.mode == 'recommendation' }}
+        working-directory: fase5_estrategia_entrada
+        run: |
+          echo "=== STRATEGIC RECOMMENDATION ==="
+          python agentic_ews_system.py --recommendation-only
+
+      # 4. Añadir timestamp al JSON para trazabilidad
+      - name: Añadir metadata de ejecución al JSON
+        if: ${{ github.event.inputs.mode == 'full' || github.event.inputs.mode == '' || github.event_name == 'schedule' || github.event_name == 'push' }}
+        working-directory: fase5_estrategia_entrada
+        run: |
+          python3 -c "
+          import json, os
+          from datetime import datetime, timezone
+
+          filepath = 'resultados_ews_fase5.json'
+          if os.path.exists(filepath):
+              with open(filepath, 'r', encoding='utf-8') as f:
+                  data = json.load(f)
+
+              data['_meta'] = {
+                  'run_timestamp_utc': datetime.now(timezone.utc).isoformat(),
+                  'run_trigger': '${{ github.event_name }}',
+                  'commit_sha': '${{ github.sha }}'[:8],
+                  'workflow': 'ews-monitor.yml'
+              }
+
+              with open(filepath, 'w', encoding='utf-8') as f:
+                  json.dump(data, f, indent=2, ensure_ascii=False)
+
+              print(f'Metadata añadida: {data[\"_meta\"]}')
+          "
+
+      # 5. Commit y push de los resultados al repositorio
+      - name: Commit resultados al repositorio
+        if: ${{ github.event.inputs.mode == 'full' || github.event.inputs.mode == '' || github.event_name == 'schedule' || github.event_name == 'push' }}
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+          git add fase5_estrategia_entrada/resultados_ews_fase5.json
+
+          # Solo hacer commit si hay cambios
+          if git diff --staged --quiet; then
+            echo "Sin cambios en el JSON — no se hace commit"
+          else
+            FECHA=$(date '+%Y-%m-%d')
+            git commit -m "chore(ews): auto-run EWS ${FECHA} — 9 KIIs monitorizados
+
+          Ejecución automática del Early Warning System.
+          Trigger: ${{ github.event_name }}
+
+          Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+            git push
+            echo "✅ Resultados commiteados al repositorio"
+          fi
+
+  # ============================================================
+  # JOB 2: Verificar integridad del sistema agéntico (en cada push)
+  # ============================================================
+  verify-system:
+    name: Verificar integridad sistemas agénticos
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push'
+
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Verificar sistema F2 (agentic_intelligence_system.py)
+        working-directory: fase2_inteligencia_mercado_espanol
+        run: |
+          echo "=== Verificando Sistema Agéntico F2 ==="
+          python agentic_intelligence_system.py --competidor sanitas
+          echo "✅ Sistema F2 operativo"
+
+      - name: Verificar sistema F5 (agentic_ews_system.py)
+        working-directory: fase5_estrategia_entrada
+        run: |
+          echo "=== Verificando Sistema Agéntico F5 ==="
+          python agentic_ews_system.py --recommendation-only
+          echo "✅ Sistema F5 operativo"

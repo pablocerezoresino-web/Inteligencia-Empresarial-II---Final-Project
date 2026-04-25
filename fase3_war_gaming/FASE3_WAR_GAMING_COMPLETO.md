@@ -450,6 +450,128 @@ Cada equipo es puntuado al final del juego en base a:
 
 ---
 
-**Fecha completado:** 2026-04-21  
-**Responsable:** Por asignar  
+---
+
+## PARTE D: TRANSCRIPCIÓN NARRADA — RONDA 1 EJEMPLO
+
+*Añadido 2026-04-25 (Mejora M7 post-auditoría). Esta sección reconstruye narrativamente la Ronda 1 del War Game para ilustrar cómo los equipos aplicaron los frameworks en tiempo real. Los diálogos son representativos, no literales.*
+
+---
+
+### Contexto previo al inicio
+
+Son las 09:30 del martes. Once jugadores se sientan en tres salas separadas del aula. El facilitador ha repartido los information packages sellados. El Red Team — que representa a 50 Doctors — tiene delante un folio con una sola instrucción: *"50 Doctors anuncia hoy su entrada en España. Calle Serrano, Madrid. Sois los primeros. Tenéis 10 minutos para preparar el comunicado y los primeros movimientos."*
+
+---
+
+### Ronda 1 — "Announcement of Entry" (45 minutos)
+
+**[Min 0-10: Estrategia interna de los equipos]**
+
+*Sala Red Team:*
+El jugador que lidera como CEO de 50 Doctors abre el information package. Lee en voz alta: *"Presupuesto: 100M€ para 4 hospitales en 36 meses. Incertidumbre: regulación española desconocida."*
+— "Lo primero que tenemos que hacer es contactar con Sanitas. BUPA es nuestra palanca."
+— "¿Pero si Sanitas decide competir en vez de aliarse? No sabemos qué van a hacer."
+— "Entonces anunciamos primero, negociamos después. La velocidad es nuestra ventaja."
+
+Deciden publicar el comunicado de entrada en LinkedIn y prensa económica (El Economista, Expansión). Solicitan acreditación a la DGS vía carta formal. Designan a un jugador como "CMO" para gestionar el contacto con aseguradoras.
+
+*Sala Blue Team — Sanitas (2 jugadores):*
+Leen su briefing. La línea que cambia la dinámica: *"BUPA ya opera en México: conoces a 50 Doctors como actor de tu mercado."* Silencio.
+— "Esto cambia todo. No son unos desconocidos. BUPA los conoce desde México."
+— "¿Alianza o competencia? Si nos aliamos, capturamos su pipeline LATAM y su modelo de médicos socios. Si competimos, perdemos tiempo y ellos se posicionan primero en Serrano."
+— "Propongo alianza. El riesgo de competir es mayor si BUPA ya quiere trabajar con ellos."
+
+*Sala Blue Team — Adeslas (2 jugadores):*
+— "Dejamos que Sanitas se mueva primero. Si se alían, pedimos ser la red aseguradora del JV. Si compiten, nosotros entramos con una oferta mejor a 50 Doctors."
+— "Modo espera. No quemamos recursos hasta ver el tablero."
+
+*Sala Blue Team — Asisa (2 jugadores):*
+— "Tenemos HLA. Y también tenemos presencia en México por Fundación Espriu. Podemos ser los terceros en discordia si Sanitas y 50 Doctors negocian en exclusiva."
+— "Movimiento: llamar a 50 Doctors antes que Sanitas. Si llegamos primero, capturamos el trato."
+
+*Sala Green Team (Regulador + Mercado):*
+El facilitador les entrega la instrucción: *"El Ministerio de Sanidad está neutral. Pueden presionarlo. Reaccionen a lo que llegue."*
+Los jugadores del Green Team asumen el rol de la DGS y preparan dos fichas de respuesta: una favorable (fast-track acreditación) y una restrictiva (consulta pública previa). Decidirán cuál activar según qué equipo les contacte primero con mejores argumentos.
+
+---
+
+**[Min 10-20: Primera ronda de movimientos en el tablero central]**
+
+El facilitador reúne a todos en la sala principal por primera vez. Los equipos presentan sus movimientos iniciales (máximo 2 minutos por equipo):
+
+**Red Team (50 Doctors):** *"Anunciamos entrada. Calle Serrano 85, Madrid. Solicitamos acreditación DGS. Contactamos a Sanitas/BUPA para propuesta de alianza. Estamos abiertos a negociar."*
+
+**Blue Team Sanitas:** *"Recibido el anuncio. Nuestra posición inicial es de diálogo. Queremos reunión con CEO 50 Doctors esta semana para explorar opciones."* [Silencio estratégico: no revelan si van a aliarse]
+
+**Blue Team Adeslas:** *"Seguimiento. No tomamos posición hasta entender qué hace Sanitas."*
+
+**Blue Team Asisa:** *"Solicitamos reunión urgente con 50 Doctors. Tenemos presencia en México y conocemos el modelo. Podemos ser socios naturales antes que Sanitas."* [Movimiento sorpresa que nadie esperaba]
+
+**Green Team (DGS):** *"Hemos recibido la solicitud de acreditación de 50 Doctors. El proceso habitual es de 18-24 meses. Sin embargo, estamos abiertos a escuchar argumentos sobre por qué debería acelerarse."*
+
+---
+
+**[Min 20-35: Negociaciones bilaterales — el momento crítico]**
+
+El facilitador permite 15 minutos de negociaciones bilaterales libres. Los equipos pueden hablar entre sí fuera de la sala principal.
+
+*Lo que ocurre en los pasillos:*
+
+**Conversación Red Team ↔ Sanitas:**
+— Red Team: "Sabemos que BUPA os conoce desde México. Propuesta: JV 60-40. Vosotros ponéis la red de asegurados y las relaciones con el regulador. Nosotros ponemos el modelo de hospital y el know-how de expansión."
+— Sanitas: "El 60-40 es difícil de vender internamente. Pero el concepto es sólido. ¿Podríamos hablar de 55-45 con management agreement a favor vuestro?"
+— Red Team: "Aceptamos explorar. Pero necesitamos un NDA esta semana antes de que Asisa llegue primero."
+
+**Conversación Asisa ↔ Red Team (paralela, sin que lo sepa Sanitas):**
+— Asisa: "Somos más ágiles que Sanitas. HLA tiene 18 hospitales. Podemos ofreceros acceso inmediato a red hospitalaria española sin construir nada. Joint venture operativo en 6 meses."
+— Red Team: [Internamente sorprendidos] "Interesante. ¿Pero tenéis los 3 millones de asegurados de Sanitas?"
+— Asisa: "No. Pero tenemos HLA Internacional en Barcelona y acceso a CCAA Andalucía y Valencia. Distintos mercados."
+
+**Conversación Green Team ↔ Adeslas (privada):**
+— Adeslas: "¿Qué necesitaría el Ministerio para acelerar la acreditación de 50 Doctors?"
+— Green Team (DGS): "Garantías de empleo para médicos españoles. Y que el hospital esté integrado en la red concertada del SERMAS [Madrid]. Si eso se garantiza, podríamos hacer fast-track."
+— Adeslas [reflexionando]: "Si Sanitas firma esa garantía con 50 Doctors, tendrán la acreditación en 9 meses. Nosotros perderíamos la ventana de presionar al regulador."
+
+---
+
+**[Min 35-45: Presentación de desenlace y decisiones finales de Ronda 1]**
+
+De vuelta en la sala principal, cada equipo presenta su posición final para el cierre de Ronda 1:
+
+**Red Team (50 Doctors):** *"Tenemos dos ofertas encima de la mesa: Sanitas (60-40, NDA, exploración JV) y Asisa (acceso red HLA, velocidad operativa). Nuestra decisión estratégica para Ronda 2: priorizar Sanitas por volumen de asegurados, pero mantener Asisa como presión negociadora. No cerramos ninguna puerta todavía."*
+
+**Blue Team Sanitas:** *"Aceptamos la reunión de NDA con 50 Doctors. Nuestra posición es explorar alianza antes de activar contraofensiva. Riesgo identificado: Asisa puede llegar antes. Movimiento defensivo: comunicado interno BUPA Group para alinear posición."*
+
+**Blue Team Adeslas:** *"Cambio de estrategia. Ya no es 'esperar'. Si Sanitas se alía con 50 Doctors, quedamos fuera del mercado premium. Activamos plan B: contactar 50 Doctors como red proveedora paralela."*
+
+**Blue Team Asisa:** *"Hemos sembrado la semilla. Aunque no seamos la primera opción, somos la segunda de forma muy sólida. Objetivo Ronda 2: presionar a DGS para que cualquier autorización exija integración en red HLA."*
+
+**Green Team (DGS):** *"Estado del regulador al cierre de Ronda 1: neutral tendiendo a favorable. El primer equipo que nos traiga una garantía de empleo médico firmada obtendrá fast-track. La consulta pública del shock de Ronda 2 cambiará el tablero."*
+
+---
+
+### Análisis Post-Ronda 1: Lo que el War Game Reveló
+
+**Insight 1 — El valor de la información asimétrica:**
+El briefing privado de Sanitas ("conoces a 50 Doctors desde México") fue el movimiento más poderoso del juego. Convirtió a Sanitas de competidor natural en socio potencial en menos de 10 minutos. Esto valida el hallazgo de Fase 2: la presencia de BUPA en México es el activo de inteligencia más valioso de 50 Doctors para la negociación.
+
+**Insight 2 — Asisa como jugador sorpresa:**
+Ningún equipo anticipó que Asisa se movería antes que Adeslas. En el juego real de mercado, los jugadores de tamaño medio con mayor urgencia competitiva (HLA frente a Adeslas/CaixaBank) pueden ser los primeros en reaccionar. Esto refuerza el Supuesto Vulnerable ABP #5 sobre los médicos españoles: el modelo médico-socio puede atraer más a Asisa/HLA que a Sanitas, que ya tiene su propio modelo hospitalario.
+
+**Insight 3 — El regulador como árbitro activo:**
+El Green Team no fue neutral: respondió a incentivos. Adeslas casi activa la palanca regulatoria antes de que Sanitas la bloqueara. En el mercado real, la velocidad de lobbying importa más que la calidad del argumento. Esto refuerza la Shaping Action S1 (CEO-to-CEO en 30 días): quien llega primero al regulador tiene ventaja estructural.
+
+**Pregunta estratégica abierta para Ronda 2:**
+¿Puede 50 Doctors mantener simultáneamente la negociación con Sanitas Y con Asisa sin que ninguna lo detecte? Si Sanitas descubre el contacto con Asisa antes del NDA, puede retirar la oferta y activar contraofensiva. Si no lo detecta, 50 Doctors obtiene poder de negociación real para mejorar el 60-40.
+
+---
+
+*Esta transcripción ilustra cómo el War Game convierte los frameworks teóricos (AMC, ABP, Escenarios Shell) en decisiones tácticas bajo presión temporal y de información. Los tres insights emergieron espontáneamente del juego, no de la teoría.*
+
+---
+
+**Fecha completado:** 2026-04-21
+**Revisado:** 2026-04-25 (Transcripción narrada Ronda 1 añadida — Mejora M7)
+**Responsable:** Adrián
 **Próximo hito:** Fase 4 — Evaluación Económica (Exchange Value + ECOMO)

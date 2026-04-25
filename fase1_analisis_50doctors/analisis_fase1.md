@@ -15,7 +15,59 @@
 
 **50 Doctors** (también denominada *Fifty Doctors*) es una cadena hospitalaria mexicana fundada en Puebla (~2021-2022). Su propuesta central combina infraestructura de lujo (5 estrellas) con precios accesibles para la clase media-alta, focalizando su cartera en cirugías programadas de mínima invasión y corta estancia.
 
-#### Canvas resumido
+#### Business Model Canvas — Representación Visual
+
+```
+╔══════════════════════╦══════════════════════╦══════════════════════╦══════════════════════╗
+║   SOCIOS CLAVE       ║  ACTIVIDADES CLAVE   ║  PROPUESTA DE VALOR  ║ RELACIONES CLIENTE   ║
+║                      ║                      ║                      ║                      ║
+║ • 50 médicos socios  ║ • Selección y        ║  ★ Hospital de lujo  ║ • Atención           ║
+║   (50% capital       ║   vinculación de     ║    a precio          ║   personalizada;     ║
+║   local por ciudad)  ║   médicos-socios     ║    accesible         ║   mismo médico       ║
+║                      ║                      ║                      ║   de siempre         ║
+║ • Constructoras      ║ • Construcción y     ║ • Cirugías mínima    ║                      ║
+║   especializadas     ║   equipamiento       ║   invasión + corta   ║ • Tecnología         ║
+║                      ║   hospitalario       ║   estancia           ║   premium;           ║
+║ • Inversores         ║                      ║                      ║   espacio tipo       ║
+║   institucionales    ║ • Operación          ║ • Alta especialidad  ║   hotel 5*           ║
+║                      ║   hospitalaria       ║   quirúrgica         ║                      ║
+║ • Gobiernos          ║                      ║                      ║ • Continuidad        ║
+║   estatales          ║ • Expansión          ║ • Continuidad        ║   médico-paciente    ║
+║   (concesión         ║   geográfica         ║   médico-paciente    ║   garantizada        ║
+║   terrenos)          ║   acelerada          ║   (médico = socio    ║                      ║
+║                      ║                      ║   = accionista)      ╠══════════════════════╣
+║ • Aseguradoras       ╠══════════════════════╣                      ║ SEGMENTOS CLIENTE    ║
+║   (objetivo          ║  RECURSOS CLAVE      ║ • Precio 30-40%      ║                      ║
+║   estratégico)       ║                      ║   menor que          ║ • Clase media-alta   ║
+║                      ║ • Red 50 médicos     ║   competidores       ║   MX sin acceso      ║
+║ • BUPA/Sanitas       ║   top por ciudad     ║   premium            ║   a hospitales       ║
+║   (futuro socio JV)  ║                      ║                      ║   públicos           ║
+║                      ║ • Infraestructura    ║                      ║                      ║
+║                      ║   premium propia     ║                      ║ • Asegurados         ║
+║                      ║                      ║                      ║   salud privada      ║
+║                      ║ • Marca + know-how   ║                      ║                      ║
+║                      ║   expansión          ║                      ║ • Turismo médico     ║
+║                      ║                      ║                      ║   (LATAM → ESP)      ║
+║                      ║ • Capital ~500M MXN  ║                      ║                      ║
+║                      ║   por hospital       ║                      ║ • Futuro: asegurados ║
+║                      ║                      ║                      ║   europeos (España)  ║
+╠══════════════════════╩══════════════════════╬══════════════════════╩══════════════════════╣
+║   ESTRUCTURA DE COSTES                       ║   FLUJOS DE INGRESOS                       ║
+║                                              ║                                            ║
+║ CapEx intensivo:                             ║ • Cirugías y hospitalización (principal)   ║
+║  • Hospital estándar:    ~500M MXN           ║ • Consultorios médicos (hasta 108/hospital)║
+║  • Complejo integrado: ~1.750M MXN (Cancún) ║ • Senior Living / Alviva (Cancún)          ║
+║                                              ║ • Turismo médico internacional             ║
+║ OpEx hospitalario:                           ║ • Futuro: cuotas por red aseguradora       ║
+║  • Personal médico y sanitario (~55% rev.)   ║                                            ║
+║  • Equipamiento y mantenimiento              ║ Tarifa premium Madrid (proyección España): ║
+║  • Overhead corporativo expansión            ║   €850/día · 150 camas · 75% occ. = €35M  ║
+╚══════════════════════════════════════════════╩════════════════════════════════════════════╝
+```
+
+> **Nota interpretativa:** El diferenciador estructural del Canvas es la columna **SOCIOS CLAVE** — los 50 médicos top de cada ciudad aportan capital (50% del hospital) y su cartera de pacientes a cambio de ser propietarios. Esto colapsa los bloques "Actividades Clave", "Recursos Clave" y "Canales" en un único mecanismo de auto-refuerzo que elimina la dependencia de marketing masivo y alinea incentivos de forma sistémica.
+
+#### Canvas resumido (tabla de referencia rápida)
 
 | Bloque | Descripción |
 |--------|-------------|
